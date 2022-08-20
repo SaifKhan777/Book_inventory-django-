@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}inventory{% endblock title %}
+
+{% block body %}
+<div class="container">
+
+<h1> INVENTORY </h1>
+
+{% for list in list %}
+<div class="card">
+    <div class="card-header">
+      <h5>  {{ list.name }}</h5>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">copies left:- {{ list.quantity }}</h5>
+    
+      <p class="card-text">
+        <li> reviews:-<b> {{ list.desc }}</b> </li>
+<li> purchase date:-<b> {{ list.date }}</b> </li>
+    </div>
+  </div>
+ {% endfor %}
+
+</div>
+{% endblock body %}

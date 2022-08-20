@@ -1,0 +1,28 @@
+-----I am very thankful for this wonderful oppurtunity----
+
+first of all ,The entire project was created by me only in one day, even after being given four days. This was because of my lab exams that are going on.
+
+I have built a simple and light book inventory management system that has easy to understand front_end and easy to devolop back_end. 
+
+The book name is taken as primary_key so that there is only one unique title associated book.
+
+
+----INSTALATION----
+
+- Download the free to access github files
+
+-Go to terminal and type :- python manage.py runserver
+    http://127.0.0.1:8000/ to check if connected
+   (if you run into some problum please try :- python manage.py  makemigrations  
+      and   python manage.py migrate)
+
+-To view admin site :- http://127.0.0.1:8000/admin
+
+-you can login using
+     username : xyz
+     password : xyz
+
+- now you have all the access to the project
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+personal remark:- unfortunately due to the lack of time because of exams I was not able to keep book tracked to google books api.
